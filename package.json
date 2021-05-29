@@ -3,7 +3,8 @@
 	"displayName": "Xmind Viewer",
 	"description": "Support view xmind files.",
 	"publisher": "cweijan",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"icon": "xmind-icon.png",
 	"repository": {
 		"url": "https://github.com/weijan-vscode/vscode-xmind-viewer.git",
 		"type": "git"
