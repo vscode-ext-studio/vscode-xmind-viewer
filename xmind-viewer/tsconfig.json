@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "dist/",
+    "rootDir": "src/",
+    "baseUrl": ".",
+    "paths": {
+      "common/*": [
+        "./src/common/*"
+      ],
+      "model/*": [
+        "./src/model/*"
+      ],
+      "utils/*": [
+        "./src/utils/*"
+      ],
+      "view/*": [
+        "./src/view/*"
+      ],
+      "viewController/*": [
+        "./src/viewController/*"
+      ],
+      "structure/*": [
+        "./src/structure/*"
+      ]
+    }
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "test",
+  ]
+}
